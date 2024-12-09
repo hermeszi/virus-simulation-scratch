@@ -22,13 +22,13 @@ This simulation helps students understand:
 - Initial condition: One infected individual (red dot)
 - Transmission: Contact between infected and healthy individuals
 - Recovery: All infected individuals eventually recover
-- Real-time graph: Tracks number of infected individuals over time
+- Real-time graph: Tracks the number of infected individuals over time
 
 ### Isolation Demonstration
 The simulation includes a barrier with a small gap to demonstrate:
 - The effect of partial isolation measures
-- Why 100% isolation is needed to completely prevent spread
-- How even small gaps in containment can lead to full population exposure
+- How even small gaps can lead to full population exposure
+- Why preventative measures like masks are more helpful in affecting the spread 
 
 ## 📊 Key Observations
 
@@ -38,7 +38,7 @@ The simulation includes a barrier with a small gap to demonstrate:
 
 2. Isolation Effects
    - Partial isolation delays but doesn't prevent spread
-   - Demonstrates why preventive measures (like masks - which lower chances of transmition) are necessary.
+   - Demonstrates why preventive measures (like masks - which lower chances of transmission) are necessary.
 
 ## 🎮 How to Use
 
@@ -51,7 +51,7 @@ You can run this simulation directly in your browser:
 1. Download the `.sb3` file from the `simulation` folder
 2. Open it in [Scratch Editor](https://scratch.mit.edu/projects/editor/)
 3. Click the green flag to start
-4. Observe the spread pattern and resulting graph
+4. Observe the spread pattern and the resulting graph
 
 ## 📚 Discussion Notes
 
@@ -60,16 +60,6 @@ You can run this simulation directly in your browser:
 - Compare with real-world COVID-19 data
 - Explore how changing parameters affects outcomes
 - Use the demo to discuss public health measures
-
-## 🛠️ Technical Implementation
-
-The simulation uses:
-- Sprite cloning for population
-- Collision detection for transmission
-- Variables for tracking infected count
-- Pen tool for real-time graphing
-- Basic physics for movement
-- Boolean logic for state changes
 
 ## 📸 Screenshots
 
@@ -95,4 +85,4 @@ This project is released under the MIT License to encourage educational use and 
 ## 👤 Author
 
 - myuen (42 Singapore)
-- Created during COVID-19 pandemic as a covid-awareness project.
+- Created during the COVID-19 pandemic as an awareness project.
